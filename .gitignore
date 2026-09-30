@@ -1,0 +1,14 @@
+data/
+*.csv
+*.parquet
+*.duckdb
+*.duckdb.wal
+*.db
+*.zip
+
+# 敏感信息
+.venv/
+.history
+venv/
+env/
+__pycache__/
