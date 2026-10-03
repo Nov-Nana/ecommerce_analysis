@@ -16,6 +16,7 @@ RAW_DIR = DATA_DIR/"raw"
 PARQUET_DIR = DATA_DIR/"parquet"
 PROCESSED_DIR = DATA_DIR/"processed"
 DB_DIR = DATA_DIR/"database"
+FIGURES_DIR = DATA_DIR/"figures"
 
 # 文件路径
 RAW_CSV = RAW_DIR/"user_behavior.csv"
