@@ -10,12 +10,14 @@ def find_project_root(marker = ".git"):
 
 PROJECT_ROOT = find_project_root()
 
+# 数据目录
 DATA_DIR = PROJECT_ROOT/"data"
 RAW_DIR = DATA_DIR/"raw"
 PARQUET_DIR = DATA_DIR/"parquet"
 PROCESSED_DIR = DATA_DIR/"processed"
 DB_DIR = DATA_DIR/"database"
 
+# 文件路径
 RAW_CSV = RAW_DIR/"user_behavior.csv"
 RAW_PARQUET = PARQUET_DIR/"user_behavior_raw.parquet"
 CLEAN_PARQUET = PROCESSED_DIR/"user_behavior_clean.parquet"
